@@ -2,7 +2,7 @@
   "name": "offisitebim",
   "version": "1.0.0",
   "description": "An web BIM Viewer with focus on offsite construction",
-  "main": "bundle.js",
+  "main": "./assets/scrpits/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
