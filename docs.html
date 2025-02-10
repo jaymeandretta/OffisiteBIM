@@ -59,6 +59,19 @@
         <a href="viewer.html" target="_blank">Model</a>
       </div>
     </div>
-    <script src="bundle.js"></script>
+    <script>
+      const $item = document.querySelector(".item");
+      const $container = document.querySelector(".container");
+      const $button = document.querySelector(".button");
+
+      console.log($item);
+      console.log($container);
+      console.log($button);
+
+      $button.addEventListener("click", () => {
+        const $newItem = $item.cloneNode(true);
+        $container.appendChild($newItem);
+      });
+    </script>
   </body>
 </html>

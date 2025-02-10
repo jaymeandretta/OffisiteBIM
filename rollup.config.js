@@ -1,7 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 
 export default {
-  input: "main.js",
+  input: "index.js",
   output: [
     {
       format: "esm",

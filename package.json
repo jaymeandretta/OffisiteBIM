@@ -2,7 +2,7 @@
   "name": "offisitebim",
   "version": "1.0.0",
   "description": "An web BIM Viewer with focus on offsite construction",
-  "main": "main.js",
+  "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -23,5 +23,9 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^16.0.0",
     "rollup": "^4.34.6"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.218"
   }
 }
