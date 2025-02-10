@@ -16,3 +16,4 @@ async function loadIfc(url) {
 }
 
 loadIfc("./AC20-FZK-Haus.ifc");
+console.log("test");
