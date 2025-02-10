@@ -1,0 +1,27 @@
+{
+  "name": "offisitebim",
+  "version": "1.0.0",
+  "description": "An web BIM Viewer with focus on offsite construction",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaymeandretta/OffisiteBIM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jaymeandretta/OffisiteBIM/issues"
+  },
+  "homepage": "https://github.com/jaymeandretta/OffisiteBIM#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.34.6"
+  }
+}
